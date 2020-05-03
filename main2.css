@@ -1,0 +1,163 @@
+#logo {
+ text-transform: capitalize;
+ padding-top: 5%;
+
+}
+
+header {
+  background-color: #95c496;
+}
+
+h1 {
+ color: #3c543c;
+ margin-top: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #c5f0c5;
+  padding-left: 1%;
+  line-height: 0.7em;
+}
+
+nav {
+  background-color: #95c496;
+  text-decoration: none;
+  color: #3c543c;
+  margin-bottom: 50px;
+  padding-left: 5%;
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3c543c;
+  padding: 0 120px;
+
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+
+nav a.acata {
+  text-decoration: overline;
+  font-weight: bold;
+  color: #568f56;
+}
+
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/**************
+IMAGENES DEL WRAPPED
+**************/
+
+
+a {
+  text-decoration: none;
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+
+img.selected {
+padding: 0;
+margin: 0 0 0;
+}
+
+#photos li {
+  list-style: none;
+  float: left;
+  width: 35%;
+  margin: 2.5%;
+  }
+
+
+#photos li a p {
+  margin: 0;
+  padding-left: 5%;
+  font-size: 0.85em;
+  color: #ccc;
+  font-family: monospace;
+  }
+
+img {
+  max-width: 100%;
+}
+
+#wrap {
+  margin-bottom: 50px;
+  padding: 0 5%;
+  background-color: #95c496;
+}
+
+#wrapper {
+  text-decoration: none;
+  color: red;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-indent: 6%;
+  background-color: #95c496;
+}
+
+#foot {
+  padding-top: 2%;
+  background-color: white;
+text-align: center;
+ font-size: 0.9em;
+ color: #b7b7b7;
+ clear: both;
+}
+
+
+#bioText {
+  color: #black;
+  padding-left: 5%;
+  padding-right: 10%;
+  line-height: 0.6em;
+  padding-top: 1%;
+}
+
+img.imgJean {
+  float: left;
+  width: 20%;
+  padding-right: 6%;
+  display: block;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border-bottom-right-radius: 45%;
+}
+
+#contactandoI {
+padding-left: 10%;
+}
+
+.fonting {
+  font-size: 1.3em;
+  color: #c5f0c5;
+}
+
+#contactandoII {
+  color: red;
+ padding-left: 20%;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li.phone a {
+  color: blue;
+  list-style: underline;
+  font-size: 1.5em;
+  background-color: green;
+}
